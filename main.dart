@@ -11,5 +11,6 @@ void main(List<String> args) {
         test: (e) => e.runtimeType == String,
       )
       .whenComplete(() => print('all finished'));
+
   print('LOADING...');
 }
